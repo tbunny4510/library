@@ -1,3 +1,4 @@
+/*
 const bookTitle = document.querySelector('#title');
 const bookAuthor = document.querySelector('#author');
 const bookPages = document.querySelector('#pages');
@@ -27,3 +28,13 @@ submit.addEventListener('click', () => {
 myLibrary.push(new Book("1984", "George Orwell", 268));
 myLibrary.push(new Book("Hung By The Tongue", "Francis Martin", 90));
 */
+
+const read = document.querySelector('.read');
+
+read.addEventListener("click", () => {
+    if(read.textContent === "Read") {
+        read.textContent = "Unread";
+    } else {
+        read.textContent = "Read";
+    }
+});
