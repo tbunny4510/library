@@ -57,6 +57,15 @@ body {
     font-size: 1.3rem;
 }
 
+.card > p {
+    margin: 0;
+}
+
+.card > p ~ p {
+    margin-top: 15px;
+    padding: 0;
+}
+
 #info input, #remove input {
     width: 100%;
     border-radius: 25px;
